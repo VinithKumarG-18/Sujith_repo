@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Royole Corporation</title>
+  <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <h1>Welcome to Royole Corporation</h1>
+    <p>Innovating Tomorrow, Today</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="nav">
+    <a href="welcome.html">Welcome</a>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="innovation.html">Innovation</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <h2>WELCOME</h2>
+
+    <!-- Introduction Paragraph -->
+    <p class="intro">
+      Welcome to the official website of Royole Corporation. This webpage provides an overview of our cutting-edge 
+      flexible display technologies and next-generation electronics. Explore our products, innovations, and how we are 
+      transforming industries with our advancements in technology.
+    </p>
+
+    <p>
+      Royole Corporation specializes in developing advanced flexible display technologies and next-generation electronics.
+      Our portfolio includes cutting-edge flexible OLED displays, high-performance sensors, and wearable devices that 
+      redefine consumer electronics and industrial applications. 
+    </p>
+    <p>
+      With a mission to push the boundaries of display technology, we envision a future where innovation meets practicality,
+      creating products that transform the way we interact with technology.
+    </p>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; <span id="current-year"></span> Royole Corporation. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Update the footer year dynamically
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+</html>

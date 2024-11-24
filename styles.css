@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header and Navigation */
+.header {
+  background-color: #0066cc;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.nav {
+  background-color: #004d99;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav a:hover {
+  background-color: #003366;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

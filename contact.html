@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royole Corporation - Contact</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Royole Corporation</h1>
+    <p>Innovating Tomorrow, Today</p>
+  </header>
+  
+  <nav class="nav">
+    <a href="welcome.html">Welcome</a>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="innovation.html">Innovation</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  
+  <main class="container">
+    
+    
+    <div class="contact-form">
+      <h3>Get In Touch</h3>
+      <form id="contactForm" onsubmit="return validateForm();">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Full Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Address">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message Here"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <p>&copy; <span id="current-year"></span> Royole Corporation. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
